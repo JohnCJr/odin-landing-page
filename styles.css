@@ -35,7 +35,7 @@ body {
 }
 
 .s1_text {
-  max-width: 500px;
+  max-width: 450px;
 }
 
 .header_links a {
@@ -47,6 +47,7 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   padding: 100px 0;
+  flex-grow: 0;
 }
 
 .s1_container img {
@@ -59,4 +60,13 @@ body {
   font-size: 48px;
   color: #f9faf8;
   font-weight: bolder;
+}
+
+.signup {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 25px;
 }
