@@ -108,7 +108,6 @@ body {
   text-align: center;
 }
 
-/**/
 .section_3 {
   background-color: #e5e7eb;
   display: flex;
@@ -136,4 +135,13 @@ body {
   margin-top: 0;
   align-self: flex-end;
   padding-right: 34px;
+}
+
+footer {
+  color: #a6aebc;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
 }
