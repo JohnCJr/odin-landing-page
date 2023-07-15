@@ -145,3 +145,14 @@ footer {
   align-items: center;
   padding: 25px 0;
 }
+
+.section_4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s4_container {
+  background-color: #3882f6;
+  display: flex;
+}
