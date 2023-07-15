@@ -85,7 +85,9 @@ body {
 
 .s2_container {
   display: flex;
+  justify-content: center;
   gap: 60px;
+  flex-wrap: wrap;
 }
 
 .image_box {
@@ -95,6 +97,7 @@ body {
   width: 200px;
   align-items: center;
 }
+
 .image_box img {
   width: 200px;
   height: auto;
