@@ -150,10 +150,20 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 60px 0;
+  padding: 80px 0;
 }
 
 .s4_container {
   background-color: #3882f6;
   display: flex;
+  justify-content: space-evenly;
+  width: 1000px;
+  padding: 30px;
+  align-items: center;
+}
+
+.s4_text p,
+.s4_text h3 {
+  margin: 0;
+  color: #e5e7eb;
 }
