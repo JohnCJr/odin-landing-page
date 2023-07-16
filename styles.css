@@ -122,12 +122,14 @@ body {
   display: flex;
   flex-direction: column;
   width: 1000px;
+  margin: 0;
 }
 
 .s3_container p {
   font-size: 36px;
   font-style: italic;
-  color: #1f2937;
+  font-weight: 300;
+  color: rgb(102, 100, 100);
   align-self: flex-start;
   margin-bottom: 0;
 }
@@ -137,7 +139,6 @@ body {
   color: #1f2937;
   margin-top: 0;
   align-self: flex-end;
-  padding-right: 34px;
 }
 
 footer {
@@ -164,6 +165,8 @@ footer {
   padding: 30px;
   align-items: center;
   border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .s4_text p,
@@ -174,4 +177,5 @@ footer {
 
 .s4_container .signup {
   border: 2px solid #e5e7eb;
+  margin-left: 10px;
 }
